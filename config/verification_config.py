@@ -277,7 +277,7 @@ def run_verification(verification_config: Dict) -> bool:
 if __name__ == "__main__":
     # 验证配置（根据实际需求修改）
     VERIFICATION_CONFIG = {
-        "target_repo": "claude-code",
+        "target_repo": "github-asset-verification",
         "target_file": {
             "path": "CLAUDE_COLLABORATION_ANALYSIS.md",
             "branch": "main"
